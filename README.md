@@ -69,3 +69,30 @@ Macro placement is a critical step in SoC design, especially for large blocks li
    ```bash
    git clone https://github.com/devadutt-github/picorv32-soc.git
    cd picorv32-soc
+
+### Results
+
+Openlane GUI view
+![picorvSoC](https://github.com/user-attachments/assets/c2f69166-e38f-484f-9910-2a64f062f647)
+
+
+Klayout GDS view
+![picorvSoC_klayout_gds](https://github.com/user-attachments/assets/f1a2a0fa-f93d-4f1b-ae91-10cf193b0843)
+
+### Acknowledgements
+
+This project would not have been possible without the following open-source tools, resources, and guidance:
+
+Mehmet Burak Aykınar: The macro placement and pin configuration strategies were inspired by the article RISC-V Based SoC Design with Open-Source OpenLane IC Design Tool by Mehmet Burak Aykınar.
+
+PicoRV32: The PicoRV32 CPU core, developed by Clifford Wolf, provided the foundation for this SoC design.
+
+OpenLane2: The OpenLane2 toolchain was used for synthesis, placement, and routing.
+
+SkyWater PDK: The SkyWater 130nm open-source PDK enabled the fabrication-ready design of this SoC.
+
+Klayout: Used for GDSII visualization and verification.
+
+We are grateful to the open-source community and the authors of these resources for their contributions and support.
+
+
